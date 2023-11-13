@@ -12,16 +12,11 @@ CREATE TABLE IF NOT EXISTS personas (
 );
 
 INSERT INTO personas (nombre, apellido, edad, provincia) VALUES
-('Juan', 'Pérez', 25, 'Buenos Aires'),
-('María', 'López', 20, 'Córdoba'),
-('Pedro', 'García', 30, 'Santa Fe'),
-('Ana', 'González', 35, 'Entre Ríos'),
-('José', 'Martínez', 40, 'Corrientes');
+('Tony', 'Stark', 45, 'Buenos Aires'),
+('Wanda', 'Maximoff', 32, 'Córdoba'),
+('Bruce', 'Banner', 42, 'Santa Fe'),
+('Natasha', 'Romanoff', 21, 'Entre Ríos'),
+('Steve', 'Rogers', 79, 'Corrientes');
 
--- Verificación de datos.
+-- Verificación de datos:
 SELECT * FROM personas;
--- SELECT * FROM personas LIMIT 5;
-
--- SELECT * FROM `personas` WHERE 1
-
--- BACKUP TABLE personas TO '/home/user/backups/personas.sql';

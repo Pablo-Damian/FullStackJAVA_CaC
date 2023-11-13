@@ -1,11 +1,11 @@
-﻿-- phpMyAdmin SQL Dump
+-- phpMyAdmin SQL Dump
 -- version 6.0.0-dev
 -- https://www.phpmyadmin.net/
 --
 -- Servidor: 192.168.30.23
--- Tiempo de generación: 29-10-2023 a las 23:42:31
+-- Tiempo de generación: 13-11-2023 a las 17:26:37
 -- Versión del servidor: 8.0.18
--- Versión de PHP: 8.2.11
+-- Versión de PHP: 8.2.12
 
 SET SQL_MODE = "NO_AUTO_VALUE_ON_ZERO";
 START TRANSACTION;
@@ -41,11 +41,11 @@ CREATE TABLE `personas` (
 --
 
 INSERT INTO `personas` (`id`, `nombre`, `apellido`, `edad`, `fecha_creación`, `provincia`) VALUES
-(1, 'Juan', 'Pérez', 25, '2023-10-30 00:40:46', 'Buenos Aires'),
-(2, 'María', 'López', 20, '2023-10-30 00:40:46', 'Córdoba'),
-(3, 'Pedro', 'García', 30, '2023-10-30 00:40:46', 'Santa Fe'),
-(4, 'Ana', 'González', 35, '2023-10-30 00:40:46', 'Entre Ríos'),
-(5, 'José', 'Martínez', 40, '2023-10-30 00:40:46', 'Corrientes');
+(1, 'Tony', 'Stark', 45, '2023-11-13 18:23:06', 'Buenos Aires'),
+(2, 'Wanda', 'Maximoff', 32, '2023-11-13 18:23:06', 'Córdoba'),
+(3, 'Bruce', 'Banner', 42, '2023-11-13 18:23:06', 'Santa Fe'),
+(4, 'Natasha', 'Romanoff', 21, '2023-11-13 18:23:06', 'Entre Ríos'),
+(5, 'Steve', 'Rogers', 79, '2023-11-13 18:23:06', 'Corrientes');
 
 --
 -- Índices para tablas volcadas
